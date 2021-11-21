@@ -1,0 +1,48 @@
+name: Bug Report
+description: File a bug report
+title: ""
+labels: ["bug"]
+assignees:
+  - suryadevelope
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: dropdown
+    id: service
+    attributes:
+      label: Service
+      description: In which service you got bug?
+      options:
+        - blockysite.com
+        - docs.blockysite.com
+        - β.creator.blockysite.com
+        - status.blockysite.com
+        - other
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+    validations:
+      required: true
+
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: What browser do you use?
+      options:
+        - Firefox
+        - Chrome
+        - Safari
+        - Microsoft Edge
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output
+      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      render: shell
