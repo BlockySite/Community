@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: status
+    url: https://status.blockysite.com/
+    about: Find status of all blockysite services
+  - name: Instagram
+    url: https://instagram.com/blockysite
+    about: Follow us on instagram for more updates.
