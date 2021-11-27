@@ -1,5 +1,5 @@
-name: Bug Report
-description: File a bug report
+name: Creator bug Report
+description: File a bug report on BlockySite creator
 labels: ["bug"]
 assignees:
   - suryadevelope
@@ -8,19 +8,7 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
-  - type: dropdown
-    id: service
-    attributes:
-      label: Service
-      description: In which service you got bug?
-      options:
-        - blockysite.com
-        - docs.blockysite.com
-        - β.creator.blockysite.com
-        - status.blockysite.com
-        - other
-    validations:
-      required: true
+
   - type: textarea
     id: what-happened
     attributes:
