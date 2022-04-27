@@ -1,5 +1,5 @@
-name: Docs bug Report
-description: File a bug report on BlockySite docs
+name: Issue in BlockySite documentation
+description: Raise an issue if you found any bug related blockysite docs
 labels: ["bug"]
 assignees:
   - shiva-sandupatla
