@@ -1,5 +1,5 @@
-name: Creator bug Report
-description: File a bug report on BlockySite creator
+name: Issue in BlockySite creator?
+description: Raise an issue if you found any bug related blockysite creator
 labels: ["bug"]
 assignees:
   - suryadevelope
